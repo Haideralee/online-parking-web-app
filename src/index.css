@@ -11,3 +11,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+img.card-img-top {
+  width: 100%;
+  object-fit: cover;
+  height: 280px;
+}
+
+img.parking-icon-image {
+  width: 50px;
+  margin-right: 10px;
+}
+
+.slot-detail {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
